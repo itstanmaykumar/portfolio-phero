@@ -4,3 +4,40 @@
     font-family: 'Inter', sans-serif;
     text-decoration: none;
 }
+.container{
+    padding: 0 10%;
+}
+
+
+
+
+
+/* Header Styles Here */
+header{
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header div{
+    padding: 20px 0;
+}
+header div p{
+    color: #FF5959;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    font-weight: 500;
+}
+header nav{
+    padding: 20px 0;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a{
+    color: #FF5959;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
