@@ -7,6 +7,21 @@
 .container{
     padding: 0 10%;
 }
+.btn{
+    margin-top: 15px;
+    display: inline-block;
+    background-color: #FF5959;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #FF5959;
+    border-radius: 7px;
+    transition-duration: .3s;
+}
+.btn:hover{
+    background-color: transparent;
+    color: #FF5959;
+    transition-duration: .3s;
+}
 
 
 
@@ -51,6 +66,7 @@ header nav a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 50px 0;
 }
 .show-box{
     width: 45%;
@@ -76,21 +92,6 @@ header nav a{
 .show-box div p{
     letter-spacing: 15px;
 }
-.show-box a{
-    margin-top: 15px;
-    display: inline-block;
-    background-color: #FF5959;
-    color: white;
-    padding: 10px 20px;
-    border: 2px solid #FF5959;
-    border-radius: 7px;
-    transition-duration: .3s;
-}
-.show-box a:hover{
-    background-color: white;
-    color: #FF5959;
-    transition-duration: .3s;
-}
 .show-box a i{
     margin-right: 5px;
 }
@@ -103,4 +104,90 @@ header nav a{
 }
 .show-box img{
     width: 100%;
+}
+
+
+
+
+
+/* Skill Section Styles */
+#skill{
+    text-align: center;
+    margin: 50px 0;
+}
+#skill h1{
+    margin: 10px 0;
+    font-size: 50px;
+}
+#skill h1 span{
+    color: #FFAD5A;
+}
+#skill-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.skill-box{
+    margin: 35px 0;
+    width: 30%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition-duration: .5s;
+}
+.skill-box:hover{
+    box-shadow: 10px 10px 25px #b6b6b6;
+    transition-duration: .5s;
+}
+.skill-box:nth-child(1)
+{
+    background-image: linear-gradient(135deg, hsla(186, 36%, 48%, 10%),#acf7ff);
+}
+.skill-box:nth-child(2)
+{
+    background-image: linear-gradient(135deg, hsla(0, 100%, 67%, 10%),#ffb1b1);
+}
+.skill-box:nth-child(3)
+{
+    background-image: linear-gradient(135deg, hsl(44, 100%, 92%) ,#ffe38f);
+}
+.skill-img{
+    height: 300px;
+    margin-bottom: 30px;
+}
+.skill-box img{
+    height: 90%;
+    max-width: 90%;
+    padding: 30px 0;
+    display: block;
+    margin: auto;
+}
+.skill-description{
+    padding: 25px;
+}
+.skill-description h2{
+    color: #FF5959;
+}
+.skill-description small{
+    display: block;
+    margin: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: beige;
+    height: 500px;
 }
