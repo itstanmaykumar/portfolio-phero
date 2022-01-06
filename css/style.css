@@ -55,6 +55,7 @@ header nav a{
     font-size: 18px;
     font-weight: 400;
     display: block;
+    margin-left: 10px;
 }
 
 
@@ -177,17 +178,100 @@ header nav a{
 
 
 
+/* Projects Sections Styles */
+#project{
+    margin: 50px 0;
+}
+#project>h1{
+    margin: 10px 0;
+    text-align: center;
+    font-size: 50px;
+}
+#project h1 span{
+    color: #FFAD5A;
+}
+#project-wrapper1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#project-wrapper2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.project-box{
+    margin: 35px 0;
+    width: 40%;
+}
+.project-box img{
+    width: 80%;
+    box-shadow: 10px 10px 25px #b6b6b6;
+    border-radius: 10px;
+}
+.project-box h1{
+    font-size: 35px;
+    color: #FF5959;
+    margin-bottom: 25px;
+}
+.project-box h3{
+    color: #FFAD5A;
+    margin-bottom: 10px;
+}
+.project-box p{
+    margin-bottom: 30px;
+}
 
 
 
 
 
+/* Connect Section Styles */
+#connect{
+    margin: 50px 0;
+}
+#connect h1{
+    color: #FF5959;
+    margin: 10px 0;
+    font-size: 35px;
+}
+#connect{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.con-box{
+    width: 40%;
+}
+.con-box form{
+    margin: 25px 0;
+}
+.con-box .input-style{
+    display: block;
+    width: 75%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.con-box img{
+    width: 100%;
+}
 
 
 
 
 
+/* Footer Styles */
 footer{
-    background-color: beige;
-    height: 500px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 35px 0;
+}
+footer p{
+    color: #FF5959;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
 }
