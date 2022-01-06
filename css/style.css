@@ -12,24 +12,24 @@
 
 
 
-/* Header Styles Here */
+/* Header Styles */
 header{
-    background-color: azure;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 0 30px #ebebeb;
 }
 header div{
-    padding: 20px 0;
+    padding: 15px 0;
 }
 header div p{
     color: #FF5959;
     font-family: 'Great Vibes', cursive;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 500;
 }
 header nav{
-    padding: 20px 0;
+    padding: 15px 0;
     width: 25%;
     display: flex;
     justify-content: space-between;
@@ -40,4 +40,67 @@ header nav a{
     font-size: 18px;
     font-weight: 400;
     display: block;
+}
+
+
+
+
+
+/* Showase Section Styles */
+#showcase{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.show-box{
+    width: 45%;
+}
+.show-box div{
+    padding: 0 20px;
+    border-left: 5px solid #FF5959;
+}
+.show-box h1{
+    margin: 10px 0;
+    font-size: 50px;
+}
+.show-box h1 span{
+    color: #FFAD5A;
+    display: inline-block;
+}
+.show-box>p{
+    margin: 25px 0;
+    color: #707070;
+    font-size: 15px;
+    word-spacing: 5px;
+}
+.show-box div p{
+    letter-spacing: 15px;
+}
+.show-box a{
+    margin-top: 15px;
+    display: inline-block;
+    background-color: #FF5959;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #FF5959;
+    border-radius: 7px;
+    transition-duration: .3s;
+}
+.show-box a:hover{
+    background-color: white;
+    color: #FF5959;
+    transition-duration: .3s;
+}
+.show-box a i{
+    margin-right: 5px;
+}
+.show-box small{
+    display: block;
+    color: #FFAD5A;
+    font-size: 13px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.show-box img{
+    width: 100%;
 }
